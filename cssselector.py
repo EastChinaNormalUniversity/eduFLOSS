@@ -1,22 +1,19 @@
-'http://www.openinnovation.cn/node/9660'#! \usr\bin\python
+#! \usr\bin\python
 # coding:utf8
 import lxml.html
 import urllib
 from lxml.cssselect import CSSSelector
 
-page = urllib.urlopen('http://www.openinnovation.cn/node/9667')
+page = urllib.urlopen('http://www.openinnovation.cn/node/9664')
 html = page.read()
 page_html = lxml.html.fromstring(html)
 
-def get_label():
+def get():
     fl_selector = page_html.cssselect(".field-label")
+    fi_selector = page_html.cssselect(".field-items, .field-item even")
     for e in fl_selector:
         print e.text_content() 
 
-def get_item():
-    fi_selector = page_html.cssselect(".field-item even")
-    for e1 in fi_selector:
-        print e1.text_content() 
-
-get_label()
-get_item()
+    for e in fi_selector:
+        print e.text_content() 
+get()
