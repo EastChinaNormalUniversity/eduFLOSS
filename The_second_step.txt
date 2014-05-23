@@ -1,3 +1,4 @@
+
 After crawling all the data from openinnovation.cn (all the works are and will be open sourced here ) I have three roads front:
 
 Firstly, to analyse these data. To do this I should learn python more deep. How to analyse data using python?
