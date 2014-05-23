@@ -1,0 +1,11 @@
+After crawling all the data from openinnovation.cn (all the works are and will be open sourced here ) I have three roads front:
+
+Firstly, to analyse these data. To do this I should learn python more deep. How to analyse data using python?
+
+Secondly, to get more data from Github via its powerful APIs. I thought that repositories on Github are more less classified than those on SourceForge, so what should be done more necessary is the third even I know that Github is far popular than SourceForge now. 
+
+Thirdly, to get more repositories from SourceForge. What should I learn are Scrapy and other frameworks. Or, I don't know if it was possible, to learn its API. To learn how to use SourceForge's API, I should learn peal. Because there is only one language interface for SourceForge API. That is peal. 
+
+I have many questions to ask, but my account can no longer be accepted to ask questions on Stack Overflow. What a pity!
+
+My assistant teacher told me that the data should be analyzed to produce some results. I think she is right. Thus, I am to follow the first road. In addition, my class on OS power will teach me how to do crawling. So follow the class to learn crawling and do my own business on analyzing data I have got. 
